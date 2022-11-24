@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to left, #bccdf8,rgb(58, 58, 214));
+}
+.container{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    font-family: 'Satisfy', cursive;
+   
+}
+.weather-title{
+    font-size: 2rem;
+}
+.weather-temperature,.weather-condition,.data{
+    font-size: 1.5rem;
+}
+.data{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-condition{
+    margin-top: -2rem;
+}
+.data{
+    margin-top: -0.8rem;
+}
+#location{
+    margin-top: -0.5rem;
+}
+.text #partly-cloudy-day {
+    display:none;
+}
+    .text #cloudy{
+        display:none;
+    }
+    
+    .text #clear-day {
+        display:none;
+    }
+        .text #rainy-day{
+            display:none;
+        }
+        .text #rainy-day{
+            display:none;
+        }
+        .text #snow-day{
+            display:none;
+        }
+        .text #snow-day{
+            display:none;
+        }
+        .text #thunderstorm-day{
+            display:none;
+        }
+        .text #air-day{
+            display:none;
+        }
+        .text #foggy-day{
+            display:none;
+        }
